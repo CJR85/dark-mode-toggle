@@ -20,4 +20,15 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sun {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
 }
