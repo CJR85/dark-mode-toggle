@@ -31,4 +31,35 @@ body {
   background: #fff;
   border-radius: 50%;
   cursor: pointer;
+  position: relative;
+  border: 5px solid #e91e63;
+}
+
+.sun div {
+  height: 3px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+}
+
+.sun .line1 {
+  width: 160px;
+  transform: translate(-50%, -50%);
+}
+
+.sun .line2 {
+  width: 160px;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.sun .line3 {
+  width: 140px;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.sun .line4 {
+  width: 140px;
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
