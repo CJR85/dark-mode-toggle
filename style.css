@@ -16,4 +16,8 @@ body {
   height: 240px;
   background: #e91e63;
   border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
